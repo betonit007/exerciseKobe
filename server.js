@@ -20,9 +20,7 @@ mongoose.connect(
   "mongodb+srv://kobie:tree2211@cluster0.gutfb.mongodb.net/exercise?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
+    useFindAndModify: false
   }
 );
 
